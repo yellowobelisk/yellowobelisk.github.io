@@ -1,1 +1,0 @@
-# aritraghosh.github.io
