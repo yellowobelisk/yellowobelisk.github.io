@@ -391,16 +391,22 @@ section .title::after{
 
 
 /* contact section styling */
-.contact{
-    color: #fff;
-    background: #111;
-}
 .contact .title::before{
     background: #fff;
 }
 .contact .title::after{
-    background: #111;
+    background: none;
     content: "____";
+}
+.contact{
+    display: block;
+    background: url("contactus-background.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color:#fff;
+    min-width: 500px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* del 3*/
