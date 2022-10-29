@@ -26,8 +26,7 @@ html{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(139,77,10);
-    background: radial-gradient(circle, rgba(139,77,10,1) 0%, rgba(0,0,0,1) 66%);
+    background: rgb(240, 98, 9);
 }
 .navbar .max-width{
     display: flex;
@@ -81,8 +80,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(139,77,10);
-    background: radial-gradient(circle, rgba(139,77,10,1) 0%, rgba(0,0,0,1) 66%);
+    background: rgb(240, 98, 9);
     right: 30px;
     bottom: 30px;
     text-align: center;
@@ -196,19 +194,6 @@ section .title::after{
 }
 
 /* About Section Styling */
-.about{
-    display: flex;
-    background: url("dark bg.png") no-repeat center;
-    background-size: cover;
-    background-attachment: local;
-    height: 100vh;
-    color:#fff;
-    min-width: 500px;
-    font-family: 'Ubuntu', sans-serif;
-}
-.about .title::after{
-    background: none;
-}
 .about .about-content .left{
     width: 25%;
 }
@@ -303,16 +288,8 @@ section .title::after{
     height: 100vh;
 }*/
 .skills{
-    /*color: #fff;
-    background: #111;*/
-    display: flex;
-    background: url("black trinagle bg.png") no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    color:#fff;
-    min-width: 500px;
-    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background: #111;
 }
 .skills .title::before{
     background: #fff;
@@ -342,19 +319,11 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
+
 /* teams section styling */
 
 /* del 2*/
-.teams{
-    display: flex;
-    background: url("dark bg.png") no-repeat center;
-    background-size: cover;
-    background-attachment: local;
-    height: 100vh;
-    color:#fff;
-    min-width: 500px;
-    font-family: 'Ubuntu', sans-serif;
-}
+
 .teams .title::before{
     background: #111;
 }
@@ -362,9 +331,6 @@ section .title::after{
     background: #fff;
     font-size: 10px;
     content: "______";
-}
-.teams .carousel{
-    background-color: rgb(61, 61, 61);
 }
 .teams .carousel .card{
     background: rgb(181, 181, 181);
@@ -425,28 +391,18 @@ section .title::after{
 
 
 /* contact section styling */
-/*.contact{
+.contact{
     color: #fff;
     background: #111;
-}*/
-
+}
 .contact .title::before{
     background: #fff;
 }
 .contact .title::after{
-    background: none;
+    background: #111;
     content: "____";
 }
-.contact{
-    display: block;
-    background: url("contactus-background.png") no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    color:#fff;
-    min-width: 500px;
-    font-family: 'Ubuntu', sans-serif;
-}
+
 /* del 3*/
 
 .contact .contact-content .column{
@@ -544,8 +500,7 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: rgb(139,77,10);
-    background: radial-gradient(circle, rgba(139,77,10,1) 0%, rgba(0,0,0,1) 66%);
+    background: rgb(240, 98, 9);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
